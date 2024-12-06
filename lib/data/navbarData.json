@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "path": "/",
+    "name": "HOME"
+  },
+  {
+    "id": 2,
+    "path": "/about-us",
+    "name": "ABOUTUS"
+  },
+  {
+    "id": 3,
+    "path": "/services",
+    "name": "SERVICES"
+  },
+  {
+    "id": 4,
+    "path": "/team",
+    "name": "TEAM"
+  },
+
+  {
+    "id": 5,
+    "path": "/reservation",
+    "name": "RESERVATION"
+  },
+  {
+    "id": 6,
+    "path": "/review",
+    "name": "REVIEW"
+  }
+]
