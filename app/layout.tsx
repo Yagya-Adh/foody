@@ -28,7 +28,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Home - Foody",
+  title: "Home - Foody Website Template",
   description: "Created and developed by Jamstackers",
 };
 

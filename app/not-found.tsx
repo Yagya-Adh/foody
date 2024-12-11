@@ -3,7 +3,7 @@ import { NotFoundIcon } from "./icons";
 import PillButton from "./components/button/PillButton";
 
 export const metadata: Metadata = {
-  title: "Not Found - Foody",
+  title: "Not Found - Foody Website Template",
   description: "Created by Jamstackers",
   openGraph: {
     title: "Not Found - Foody",
