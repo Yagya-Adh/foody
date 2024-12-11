@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Quality Food",
+    "describe": "Cras faucibus sodales velit viverra donec commodo volutpat. At integer quam fusce sit.",
+    "image": "/assets/service1.svg"
+  },
+  {
+    "id": 2,
+    "title": "Super Taste",
+    "describe": "Ipsum tempus sed sit tincidunt sed adipiscing semper natoque. Est id praesent libero egestas.",
+    "image": "/assets/service2.svg"
+  },
+  {
+    "id": 3,
+    "title": "Fast Delivery",
+    "describe": "At porttitor varius elementum pretium. Felis, eget sed ipsum sed cursus ipsum blandit tortor praesent.",
+    "image": "/assets/service3.svg"
+  }
+]

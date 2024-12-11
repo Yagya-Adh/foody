@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/meal1.png",
+    "title": "Beef Burger Meal",
+    "time": "20 - 25 Min",
+    "mealType": "Lunch"
+  },
+  {
+    "id": 2,
+    "image": "/assets/meal2.jpeg",
+    "title": "Roasted Lamb Rump",
+    "time": "45 - 50 Min",
+    "mealType": "Dinner"
+  },
+  {
+    "id": 3,
+    "image": "/assets/meal3.png",
+    "title": "Pan Seared Sea Bass",
+    "time": "35 - 40 Min",
+    "mealType": "Breakfast"
+  },
+  {
+    "id": 4,
+    "image": "/assets/meal4.png",
+    "title": "Citrus Cured Salmon",
+    "time": "10 - 22 Min",
+    "mealType": "Dinner"
+  },
+  {
+    "id": 5,
+    "image": "/assets/meal5.png",
+    "title": "Stuffed Strawberry",
+    "time": "20 - 25 Min",
+    "mealType": "Dinner"
+  },
+  {
+    "id": 6,
+    "image": "/assets/meal6.png",
+    "title": "Mussels Soup",
+    "time": "20 - 25 Min",
+    "mealType": "Dinner"
+  },
+  {
+    "id": 7,
+    "image": "/assets/meal7.png",
+    "title": "Italian Spaghetti",
+    "time": "20 - 25 Min",
+    "mealType": "Dinner"
+  },
+  {
+    "id": 8,
+    "image": "/assets/meal8.png",
+    "title": "Grilled Fish",
+    "time": "20 - 25 Min",
+    "mealType": "Dinner"
+  }
+]

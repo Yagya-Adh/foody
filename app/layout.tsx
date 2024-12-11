@@ -4,9 +4,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 
-/* 
-Oswald, sans-serif */
-
 const oswald = Oswald({
   variable: "--font-oswald",
   subsets: ["latin"],

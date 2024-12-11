@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Johnathan Tyler",
+    "describe": "Founder & Head Chef",
+    "image": "/assets/team1.png"
+  },
+  {
+    "id": 2,
+    "title": "Wade Warren",
+    "describe": "Sous Chef",
+    "image": "/assets/team2.png"
+  },
+  {
+    "id": 3,
+    "title": "Johnathan Tyler",
+    "describe": "Line Cooks",
+    "image": "/assets/team3.png"
+  },
+  {
+    "id": 4,
+    "title": "Johnathan Tyler",
+    "describe": "Prep Cooks",
+    "image": "/assets/team4.png"
+  }
+]
