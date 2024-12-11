@@ -11,7 +11,7 @@ const AboutSection = () => {
               ABOUT US
             </h2>
             <p className="text-xl xl:text-xl font-urbanist font-semibold mb-7 sm:py-1.5">
-              The only thing we're serious about is food.
+              The only thing we&apos;re serious about is food.
             </p>
             <div>
               <p className="text-base xl:text-base font-urbanist font-light max-w-xl mb-10">
