@@ -9,7 +9,8 @@ export interface IIconsInterface {
 export interface IPillButtonInterface {
   text: string;
   variant?: "button-arrow";
-  onClick?: (e: React.FormEvent<HTMLFormElement>) => void;
+  type?: "submit" | "button";
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 export interface IsectionHead {
   heading: string;

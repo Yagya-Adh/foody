@@ -46,7 +46,10 @@ const ReservationForm = () => {
           </p>
         </div>
       ) : (
-        <form className="flex flex-col justify-center items-center">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col justify-center items-center"
+        >
           <div className="grid grid-cols-2 gap-12">
             <input
               required
@@ -110,7 +113,7 @@ const ReservationForm = () => {
             />
             <div className="col-span-2 flex inset-0 justify-center items-center w-full">
               <PillButton
-                onClick={handleSubmit}
+                type="submit"
                 text={loading ? "Please wait..." : "Reserve now"}
                 variant="button-arrow"
               />
