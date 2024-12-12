@@ -29,7 +29,7 @@ const ReservationForm = () => {
     }, 3000);
   };
   return (
-    <div className="bg-white rounded-xl border p-8 lg:p-12">
+    <div className="bg-white shadow-lg rounded-xl border p-8 lg:p-12">
       <div className="flex flex-col justify-center">
         <h3 className="uppercase font-oswald font-light text-5xl mb-1.5 text-center">
           make a reservation

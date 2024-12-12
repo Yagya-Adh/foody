@@ -23,7 +23,7 @@ const CustomersAccordion = () => {
       <div className="flex gap-7 lg:gap-10 items-center min-w-96 max-w-full">
         {consumerData.map((list) => (
           <div
-            className="flex flex-col justify-center pt-14 lg:pt-20 px-5 border rounded-xl relative min-h-80 h-full min-w-80 transition-transform duration-500"
+            className="flex flex-col shadow-md justify-center pt-14 lg:pt-20 px-5 border rounded-xl relative min-h-80 h-full min-w-80 transition-transform duration-500"
             key={list.id}
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
