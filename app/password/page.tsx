@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import PasswordSection from "../components/sections/PasswordSection";
+
+export const metadata: Metadata = {
+  title: "Password - Foody Website Template",
+  description: "Created and developed by Jamstackers",
+};
 
 const Password = () => {
   return (

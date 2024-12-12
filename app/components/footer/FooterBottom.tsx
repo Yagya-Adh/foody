@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const data = [
   { id: 1, linkPath: "/", name: "Styleguide" },
-  { id: 2, linkPath: "/", name: "Licensing" },
-  { id: 3, linkPath: "/", name: "Changelog" },
-  { id: 4, linkPath: "/", name: "Password" },
-  { id: 5, linkPath: "/", name: "Error 404" },
+  { id: 2, linkPath: "/licensing", name: "Licensing" },
+  { id: 3, linkPath: "/changelog", name: "Changelog" },
+  { id: 4, linkPath: "/password", name: "Password" },
+  { id: 5, linkPath: "/error", name: "Error 404" },
 ];
 
 const FooterBottom = () => {
@@ -29,7 +29,7 @@ const FooterBottom = () => {
           Jamstackers
         </Link>
       </div>
-      <div className="flex  items-end flex-wrap">
+      <div className="flex items-end flex-wrap mt-3.5">
         {data?.map((item) => (
           <Link
             href={item.linkPath}

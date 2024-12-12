@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Image from "next/image";
+import Footer from "./components/footer/Footer";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -30,7 +31,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Home - Foody Website Template",
-  description: "Created and developed by Jamstackers",
+  description: "Created by Jamstackers",
 };
 
 export default function RootLayout({
@@ -54,6 +55,7 @@ export default function RootLayout({
         </div>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

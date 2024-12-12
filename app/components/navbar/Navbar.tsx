@@ -16,10 +16,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="px-4 fixed top-0 left-0 lg:relative w-full z-20">
-      <div className="relative max-w-screen-xl mx-auto lg:px-4 border-2 border-black lg:border-r-0 lg:border-l-0 lg:border-b xl:border-black/5 bg-transparent-10 bg-white/15 backdrop-blur-3xl border-white/15 backdrop:blur-3xl rounded-b-lg">
+    <nav className="fixed px-1.5 top-0 left-0 lg:relative w-full z-20">
+      <div className="relative max-w-screen-xl mx-auto border-2 border-black lg:border-r-0 lg:border-l-0 lg:border-b xl:border-black/5 bg-transparent-10 bg-white/15 backdrop-blur-3xl border-white/15 backdrop:blur-3xl rounded-b-lg">
         <div className="flex flex-row justify-between items-center py-3 px-4">
-          <Link href="#home">
+          <Link href="/">
             <FoodyIcon className="w-20 h-8" />
           </Link>
           <ul className="hidden lg:flex justify-between items-center">
@@ -36,22 +36,22 @@ const Navbar = () => {
           <button
             type="button"
             className="
-          hidden
-          lg:block
-          border
-          bg-transparent 
-          text-center 
-          text-black
-          hover:text-white
-          hover:bg-black  
-          border-black
-          rounded-full 
-          text-sm
-          font-foody
-          font-medium
-          px-6          
-          py-3
-          "
+            hidden
+            lg:block
+            border
+            bg-transparent 
+            text-center 
+            text-black
+            hover:text-white
+            hover:bg-black  
+            border-black
+            rounded-full 
+            text-sm
+            font-foody
+            font-medium
+            px-6          
+            py-3
+            "
           >
             Our Menu
           </button>

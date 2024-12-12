@@ -1,4 +1,3 @@
-import Footer from "./components/footer/Footer";
 import AboutSection from "./components/sections/AboutSection";
 import CounterSection from "./components/sections/CounterSection";
 import CustomerReviewSection from "./components/sections/CustomerReviewSection";
@@ -19,7 +18,6 @@ export default function Home() {
       <TeamSection />
       <ReservationSection />
       <CustomerReviewSection />
-      <Footer />
     </main>
   );
 }
