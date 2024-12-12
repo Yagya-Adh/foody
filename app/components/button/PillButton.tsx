@@ -1,11 +1,10 @@
 import { ArrowCircleRight } from "@/app/icons";
 import { IPillButtonInterface } from "@/app/interface";
 
-const PillButton = ({ text, variant, onClick }: IPillButtonInterface) => {
+const PillButton = ({ text, variant, type }: IPillButtonInterface) => {
   return (
     <button
-      onClick={onClick}
-      type="button"
+      type={type}
       className="
       group 
       flex 
