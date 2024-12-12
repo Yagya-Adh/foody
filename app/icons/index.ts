@@ -8,3 +8,6 @@ export { default as ClockIcon } from "./ClockIcon";
 export { default as QualityIcon } from "./QualityIcon";
 export { default as SuperTasteIcon } from "./SuperTasteIcon";
 export { default as FastDeliveryIcon } from "./FastDeliveryIcon";
+export { default as ChevronLeftIcon } from "./ChevronLeftIcon";
+export { default as ChevronRightIcon } from "./ChevronRightIcon";
+export { default as StarIcon } from "./StarIcon";

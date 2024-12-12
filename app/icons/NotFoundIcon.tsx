@@ -2,14 +2,7 @@ import { IIconsInterface } from "../interface";
 
 const NotFoundIcon = ({ className }: IIconsInterface) => {
   return (
-    <svg
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      width="456"
-      height="376"
-      viewBox="0 0 456 376"
-      fill="none"
-    >
+    <svg className={className} viewBox="0 0 456 376" fill="none">
       <path
         d="M274.196 363.25C292.734 363.25 307.762 359.113 307.762 354.009C307.762 348.905 292.734 344.768 274.196 344.768C255.658 344.768 240.63 348.905 240.63 354.009C240.63 359.113 255.658 363.25 274.196 363.25Z"
         fill="#263238"

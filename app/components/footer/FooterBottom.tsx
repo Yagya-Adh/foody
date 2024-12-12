@@ -2,16 +2,16 @@ import Link from "next/link";
 
 const data = [
   { id: 1, linkPath: "/", name: "Styleguide" },
-  { id: 2, linkPath: "/", name: "Licensing" },
-  { id: 3, linkPath: "/", name: "Changelog" },
-  { id: 4, linkPath: "/", name: "Password" },
-  { id: 5, linkPath: "/", name: "Error 404" },
+  { id: 2, linkPath: "/licensing", name: "Licensing" },
+  { id: 3, linkPath: "/changelog", name: "Changelog" },
+  { id: 4, linkPath: "/password", name: "Password" },
+  { id: 5, linkPath: "/error", name: "Error 404" },
 ];
 
 const FooterBottom = () => {
   return (
-    <div className="flex justify-between items-center border-t border-t-black lg:py-5">
-      <div className="font-urbanist text-base font-medium text-black/40">
+    <div className="flex flex-col justify-center md:flex-row md:justify-between items-center border-t border-t-black py-2.5 lg:py-5">
+      <div className="font-urbanist lg:text-base font-medium text-black/40">
         Built by{" "}
         <Link
           href="https://www.jamstackers.com"
@@ -29,7 +29,7 @@ const FooterBottom = () => {
           Jamstackers
         </Link>
       </div>
-      <div className="flex justify-end items-end">
+      <div className="flex items-end flex-wrap mt-3.5">
         {data?.map((item) => (
           <Link
             href={item.linkPath}

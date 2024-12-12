@@ -9,6 +9,7 @@ export interface IIconsInterface {
 export interface IPillButtonInterface {
   text: string;
   variant?: "button-arrow";
+  onClick?: () => void;
 }
 export interface IsectionHead {
   heading: string;
@@ -18,4 +19,7 @@ export interface IsectionHead {
 export interface ICounterInterface {
   countNumber: string;
   counterText: string;
+}
+export interface IStars {
+  stars: number;
 }

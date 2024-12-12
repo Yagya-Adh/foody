@@ -3,7 +3,10 @@ import CustomersAccordion from "../accordion/CustomersAccordion";
 
 const CustomerReviewSection = () => {
   return (
-    <section className="max-w-screen-2xl mx-auto px-4 lg:py-28">
+    <section
+      id="review"
+      className="max-w-screen-xl mx-auto px-3.5 lg:py-28 overflow-hidden"
+    >
       <SectionHeading
         heading="Customers Review"
         description="Morbi in sed enim viverra aenean amet. A commodo nunc mauris, in accumsan facilisi montes, neque venenatis."

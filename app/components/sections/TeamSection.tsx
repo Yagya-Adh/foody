@@ -3,7 +3,10 @@ import SectionHeading from "../headings/SectionHeading";
 
 const TeamSection = () => {
   return (
-    <section className="max-w-screen-xl mx-auto px-4 py-10 md:py-20 lg:py-32">
+    <section
+      id="team"
+      className="max-w-screen-xl mx-auto px-4 py-10 md:py-20 lg:py-32"
+    >
       <SectionHeading
         maxWidthDescribe="max-w-lg"
         heading="Our Team"
