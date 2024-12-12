@@ -110,7 +110,7 @@ const ReservationForm = () => {
             />
             <div className="col-span-2 flex inset-0 justify-center items-center w-full">
               <PillButton
-                onClick={() => handleSubmit}
+                onClick={handleSubmit}
                 text={loading ? "Please wait..." : "Reserve now"}
                 variant="button-arrow"
               />

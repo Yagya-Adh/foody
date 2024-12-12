@@ -9,7 +9,7 @@ export interface IIconsInterface {
 export interface IPillButtonInterface {
   text: string;
   variant?: "button-arrow";
-  onClick?: () => void;
+  onClick?: (e: React.FormEvent<HTMLFormElement>) => void;
 }
 export interface IsectionHead {
   heading: string;

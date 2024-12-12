@@ -1,5 +1,5 @@
-import ReservationForm from "../form/ReservationForm";
 import Image from "next/image";
+import ReservationForm from "../form/ReservationForm";
 
 const ReservationSection = () => {
   return (
