@@ -3,8 +3,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { InavBar } from "@/app/interface";
 import { BarIcon, FoodyIcon, XmarkIcon } from "@/app/icons";
-import navbarData from "@/lib/data/navbarData.json";
 import PillButton from "../button/PillButton";
+import navbarData from "@/lib/data/navbarData.json";
 
 const data: InavBar[] = navbarData;
 

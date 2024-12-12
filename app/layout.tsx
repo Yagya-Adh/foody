@@ -3,6 +3,7 @@ import { Urbanist, Oswald } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
+import Image from "next/image";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -42,6 +43,15 @@ export default function RootLayout({
       <body
         className={`${urbanist.variable} ${oswald.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="absolute -z-10 right-0 top-0">
+          <Image
+            src="/assets/hero.svg"
+            alt="hero_bg_image"
+            width={1000}
+            height={1000}
+            className="object-center object-cover h-screen w-auto"
+          />
+        </div>
         <Navbar />
         {children}
       </body>

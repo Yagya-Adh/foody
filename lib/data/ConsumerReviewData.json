@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "author": { "name": "Jane Copper", "image": "/assets/customer1.png" },
+    "describe": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+    "stars": 5
+  },
+  {
+    "id": 2,
+    "author": { "name": "Esther Howard", "image": "/assets/customer2.png" },
+    "describe": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+    "stars": 4
+  },
+  {
+    "id": 3,
+    "author": { "name": "Guy Hawkins", "image": "/assets/customer3.png" },
+    "describe": "Sit lacus enim enim donec porttitor quis at consequat. Ut ut et erat nunc quisque ut. Ullamcorper in sit lectus nisi, leo diam volutpat vitae. Amet sed sem cursus facilisi amet suscipit.",
+    "stars": 3
+  }
+]

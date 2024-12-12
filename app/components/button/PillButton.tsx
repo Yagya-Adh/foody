@@ -1,9 +1,10 @@
 import { ArrowCircleRight } from "@/app/icons";
 import { IPillButtonInterface } from "@/app/interface";
 
-const PillButton = ({ text, variant }: IPillButtonInterface) => {
+const PillButton = ({ text, variant, onClick }: IPillButtonInterface) => {
   return (
     <button
+      onClick={onClick}
       type="button"
       className="lg                
         group 
@@ -32,7 +33,7 @@ const PillButton = ({ text, variant }: IPillButtonInterface) => {
         {text}
       </span>
       {variant == "button-arrow" && (
-        <ArrowCircleRight className="h-6 w-6 fill-black group-hover:fill-white" />
+        <ArrowCircleRight className="h-6 w-6 fill-black  group-hover:fill-black" />
       )}
     </button>
   );
