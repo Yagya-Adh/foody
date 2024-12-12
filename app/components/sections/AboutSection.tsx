@@ -3,7 +3,7 @@ import { ArrowCircleRight } from "@/app/icons";
 
 const AboutSection = () => {
   return (
-    <section className="bg-foody-green-10">
+    <section id="about-us" className="bg-foody-green-10">
       <div className="max-w-screen-xl mx-auto px-2 xl:px-4 py-14">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xl:gap-10">
           <div className="flex flex-col justify-center order-1 lg:order-none">

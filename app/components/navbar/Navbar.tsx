@@ -19,7 +19,9 @@ const Navbar = () => {
     <nav className="px-4 fixed top-0 left-0 lg:relative w-full z-20">
       <div className="relative max-w-screen-xl mx-auto lg:px-4 border-2 border-black lg:border-r-0 lg:border-l-0 lg:border-b xl:border-black/5 bg-transparent-10 bg-white/15 backdrop-blur-3xl border-white/15 backdrop:blur-3xl rounded-b-lg">
         <div className="flex flex-row justify-between items-center py-3 px-4">
-          <FoodyIcon className="w-20 h-8" />
+          <Link href="#home">
+            <FoodyIcon className="w-20 h-8" />
+          </Link>
           <ul className="hidden lg:flex justify-between items-center">
             {data?.map((list) => (
               <Link
@@ -83,7 +85,9 @@ const Navbar = () => {
             {list.name}
           </Link>
         ))}
-        <PillButton text="Our Menu" />
+        <Link href="#services">
+          <PillButton text="Our Menu" />
+        </Link>
       </ul>
     </nav>
   );

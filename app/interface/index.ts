@@ -9,7 +9,7 @@ export interface IIconsInterface {
 export interface IPillButtonInterface {
   text: string;
   variant?: "button-arrow";
-  onClick: () => void;
+  onClick?: () => void;
 }
 export interface IsectionHead {
   heading: string;

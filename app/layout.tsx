@@ -39,9 +39,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${urbanist.variable} ${oswald.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${urbanist.variable} ${oswald.variable} ${geistSans.variable} ${geistMono.variable} antialiased  `}
       >
         <div className="absolute -z-10 right-0 top-0">
           <Image
