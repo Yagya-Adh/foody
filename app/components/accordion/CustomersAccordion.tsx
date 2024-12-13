@@ -34,12 +34,12 @@ const CustomersAccordion = () => {
               height={80}
               className="object-center object-cover rounded-full h-20 w-20 absolute -top-10 left-5"
             />
-            <p className="text-base font-urbanist font-light mb-7 max-w-screen-md w-full min-w-42">
+            <p className="text-base xl:text-lg font-urbanist font-light mb-7 max-w-screen-md w-full min-w-42">
               {list.describe}
             </p>
 
             <div className="flex justify-between items-center border-t">
-              <div className="font-urbanist font-bold text-base py-5">
+              <div className="font-urbanist font-bold text-base xl:text-lg py-5">
                 {list.author.name}
               </div>
               <div className="flex inset-0">

@@ -8,10 +8,10 @@ const FooterTop = () => {
         <FoodyIcon className="lg:w-20 h-8 mb-5 w-16" />
       </Link>
       <div className="flex flex-col justify-center items-center md:justify-end md:items-end pb-4 lg:pb-3.5">
-        <p className="text-black/40 font-normal text-center text-base lg:text-end">
+        <p className="text-black/40 font-normal text-center text-base xl:text-xl lg:text-end">
           4517 Washington Ave. Manchester, Kentucky 39495
         </p>
-        <p className="text-black/40 font-normal text-base">
+        <p className="text-black/40 font-normal text-base xl:text-xl">
           Open : 09:00 Am - 01:00 PM
         </p>
       </div>

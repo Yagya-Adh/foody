@@ -7,7 +7,7 @@ const MealImageCard = () => {
   return (
     <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 gap-y-9 place-items-start">
       {data.map((list) => (
-        <div className="flex flex-col relative" key={list.id}>
+        <div className="flex flex-col md:min-w-full relative" key={list.id}>
           <h3
             className="
           absolute z-10 top-4 left-4

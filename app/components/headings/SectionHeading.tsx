@@ -11,8 +11,8 @@ const SectionHeading = ({
         {heading}
       </h2>
       <p
-        className={`${maxWidthDescribe ? maxWidthDescribe : ""}
-        font-urbanist font-light text-base text-center 
+        className={`${maxWidthDescribe ? maxWidthDescribe : "max-w-screen-sm"}
+        font-urbanist font-light text-base text-center xl:text-lg max-w-screen-sm 
         `}
       >
         {description}
