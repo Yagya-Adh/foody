@@ -11,7 +11,7 @@ const data = [
 const FooterBottom = () => {
   return (
     <div className="flex flex-col justify-center md:flex-row md:justify-between items-center border-t border-t-black py-2.5 lg:py-5">
-      <div className="font-urbanist lg:text-base font-medium text-black/40">
+      <div className="font-urbanist text-base xl:text-xl font-medium text-black/40">
         Built by{" "}
         <Link
           href="https://www.jamstackers.com"
@@ -34,7 +34,7 @@ const FooterBottom = () => {
           <Link
             href={item.linkPath}
             key={item.id}
-            className="lg:text-base text-black/40 font-urbanist font-medium mx-4"
+            className="text-base xl:text-xl text-black/40 font-urbanist font-medium mx-4"
           >
             {item.name}
           </Link>

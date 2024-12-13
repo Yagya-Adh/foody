@@ -15,7 +15,7 @@ export interface IPillButtonInterface {
 export interface IsectionHead {
   heading: string;
   description: string;
-  maxWidthDescribe: string;
+  maxWidthDescribe?: string;
 }
 export interface ICounterInterface {
   countNumber: string;
