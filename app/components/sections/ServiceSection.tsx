@@ -18,8 +18,10 @@ const ServiceSection = () => {
               alt={`${list.title}_image`}
               className="object-center object-cover h-38 w-38 mb-6"
             />
-            <h3 className="font-oswald text-2xl text-center">{list.title}</h3>
-            <p className="font-urbanist text-base font-normal text-center max-w-sm">
+            <h3 className="font-oswald text-2xl xl:text-3xl text-center xl:mb-1">
+              {list.title}
+            </h3>
+            <p className="font-urbanist text-base font-normal text-center xl:text-xl">
               {list.describe}
             </p>
           </div>

@@ -10,7 +10,7 @@ interface IITeamDatainterface {
 const data: IITeamDatainterface[] = teamData;
 const TeamImageCard = () => {
   return (
-    <div className="grid grid-cols-4 gap-5">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
       {data.map((list) => (
         <div
           className="flex flex-col justify-center items-center"

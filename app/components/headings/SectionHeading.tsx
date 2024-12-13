@@ -6,7 +6,7 @@ const SectionHeading = ({
   maxWidthDescribe,
 }: IsectionHead) => {
   return (
-    <div className="flex flex-col justify-center items-center mb-2">
+    <div className="flex flex-col justify-center items-center mb-10">
       <h2 className="font-oswald font-light text-3xl md:text-6xl lg:text-7xl text-center uppercase mb-2">
         {heading}
       </h2>

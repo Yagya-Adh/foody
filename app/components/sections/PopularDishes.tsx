@@ -5,7 +5,7 @@ const PopularDishes = () => {
   return (
     <section
       id="services"
-      className="max-w-screen-xl mx-auto px-3 py-10 md:py-24 lg:py-32"
+      className="max-w-screen-xl mx-auto px-3 pb-10 md:pb-24 lg:pb-32"
     >
       <SectionHeading
         maxWidthDescribe="max-w-96"
